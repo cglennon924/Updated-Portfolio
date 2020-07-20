@@ -10,7 +10,24 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+.contact-section{
+float: left;
+}
+
+.message{
+  box-sizing: content-box;
+  width: 100%;
+}
+
+.full-name{
+  width: 100%;
+}
+
+.email-address{
+  width: 100%;
+}
+
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
